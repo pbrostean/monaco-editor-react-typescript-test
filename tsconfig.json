@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["vite/client"],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "dist",
+    "noEmit": true,
+  },
+  "include": [
+    "**/src/**/*.ts",
+    "**/test/**/*.ts",
+    "**/src/**/*.tsx",
+    "**/test/**/*.tsx",
+    "**/packages/*/*.ts",
+    "**/packages/*/*.js",
+    "**/build/**/*.mts",
+    "*.js",
+    "*.ts",
+  ],
+  "exclude": [
+    "dist/**/*",
+    "lib/**/*",
+    "node_modules/**/*"
+  ]
+}
